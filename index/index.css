@@ -68,13 +68,14 @@ header {
 @media (max-width: 650px) {
   .logo {
     margin-top: 15px;
-    width: 100%;
+    width: 20%;
+    height: 20%;
     position: relative;
   }
 }
 .logo img {
-  width: 50%;
-  height: 50%;
+  width: 20%;
+  height: 20%;
   padding: auto;
   margin: auto;
 }
@@ -129,6 +130,18 @@ nav > ul {
 }
 
 /*----------------------*/
+
+.images {
+  height: 30%;
+  width: 30%;
+}
+.coworkingplace {
+  height: 30%;
+  width: 30%;
+  padding: 25px 0px 0px 0px;
+  margin-top: 10px;
+}
+
 @media (max-width: 800px) {
   #concept {
 
