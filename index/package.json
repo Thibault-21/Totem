@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thibault-21/Totem.git"
+  },
+  "keywords": [
+    "totem"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thibault-21/Totem/issues"
+  },
+  "homepage": "https://github.com/Thibault-21/Totem#readme"
+}
