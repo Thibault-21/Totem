@@ -60,12 +60,12 @@ header {
   header {
     flex-wrap: wrap;
   }
-}
+
 
 .logo {
   width: 40vw;
 }
-@media (max-width: 650px) {
+
   .logo {
     margin-top: 15px;
     width: 20%;
@@ -341,6 +341,37 @@ nav > ul {
   @media (max-width: 650px) {
     #contact {
       margin-top: 120px;
+    }
+  }
+  @media (max-width: 375px) {
+    #contact input[type="number"] {
+      width: 130px;
+      padding: 5px;
+      height: 30px;
+      margin: 15px auto;
+      border: 1 solid black;
+    }
+    #contact input[type="email"] {
+      width: 130px;
+      padding: 5px;
+      margin: 15px auto;
+    }
+    #contact input[type="text"] {
+      width: 130px;
+      padding: 5px;
+      margin: 15px auto;
+    }
+    #contact {
+      height: 450px;
+      padding: 10px;
+    }
+    form {
+      height: 370px;
+    }
+    #dropdown {
+      width: 130px;
+      padding: 5px;
+      margin: 15px auto;
     }
   }
 
